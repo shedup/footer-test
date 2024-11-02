@@ -4,13 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-footer',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      footer works!
-    </p>
-  `,
-  styles: ``
+  templateUrl: './footer/footer.component.html',
+  styleUrl: './footer/footer.component.css',
 })
-export class FooterComponent {
-
-}
+export class FooterComponent {}
